@@ -52,6 +52,8 @@ public class TestGoogle {
     Assert.assertEquals(name, "steven lavrynovych - Google Search");
     
     Assert.assertTrue(linkSv.isDisplayed());
+    
+    //my chenge to verify
     }
   
 }
