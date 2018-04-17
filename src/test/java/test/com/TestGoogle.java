@@ -52,6 +52,7 @@ public class TestGoogle {
     Assert.assertEquals(name, "steven lavrynovych - Google Search");
     
     Assert.assertTrue(linkSv.isDisplayed());
+       /// Assert.assertTrue(linkSv.isDisplayed());
     }
   
 }
