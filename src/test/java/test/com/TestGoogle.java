@@ -53,10 +53,5 @@ public class TestGoogle {
     
     Assert.assertTrue(linkSv.isDisplayed());
     }
-   /* @Test
-    public void TestGit2() {
-        WebElement linkSva = driver.findElement(By.linkText("Sviatoslav Lavrynovych - QA Tester - uTest | LinkedIn"));
-        Assert.assertTrue(linkSva.isDisplayed());
-    }
-    */
+  
 }
