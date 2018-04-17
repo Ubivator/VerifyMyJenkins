@@ -59,5 +59,25 @@ public class TestGoogle {
        /// Assert.assertTrue(linkSv.isDisplayed());
 
     }
+    @Test
+    public void TestGit1() {
+        driver = new ChromeDriver();
+    driver.get("https:\\www.google.com");
+    WebElement homeGoogle = driver.findElement(By.name("q"));
+    homeGoogle.sendKeys("steven lavrynovych");
+    homeGoogle.submit();
+    String name = driver.getTitle();
+        System.out.println("this the title >>>>>>>>> " + name + " <<<<<<<");
+        WebElement linkSv = driver.findElement(By.linkText("Sviatoslav Lavrynovych - QA Tester - uTest | LinkedIn"));
+    Assert.assertEquals(name, "steven lavrynovych - Google Search");
+    
+    Assert.assertTrue(linkSv.isDisplayed());
+
+    
+    //my chenge to verify
+
+       /// Assert.assertTrue(linkSv.isDisplayed());
+
+    }
   
 }
