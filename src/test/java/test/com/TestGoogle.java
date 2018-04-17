@@ -71,7 +71,7 @@ public class TestGoogle {
         WebElement linkSv = driver.findElement(By.linkText("Sviatoslav Lavrynovych - QA Tester - uTest | LinkedIn"));
     Assert.assertEquals(name, "steven lavrynovych - Google Search");
     
-    Assert.assertTrue(linkSv.isDisplayed());
+    Assert.assertTrue(linkSv.isDisplayed();
 
     
     //my chenge to verify
